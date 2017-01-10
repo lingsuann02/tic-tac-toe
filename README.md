@@ -1,7 +1,7 @@
 # Tic Tac Toe Programming Challenge #
 
 ## Requirements ##
-npm and Node.js are required to run tic-tac-toe.
+Your machine must have npm and Node.js to run tic-tac-toe.
 
 
 ## Languages ##
