@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "Tic tac toe game",
     "scripts": {
-        "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
+        "start": "tsc && concurrently \"lite-server\" ",
         "tsc": "tsc",
         "tsc:w": "tsc -w"
     },

@@ -1,10 +1,12 @@
 .game-board {
-    width: 500px;
-    height: 500px;
+    width: 64vh;
+    height: 64vh;
+    display: flex;
+    justify-content: space-between;
 }
 
 .game-title {
-    font-size: 7em;
+    font-size: 8vh;
 }
 
 .game-alert {
@@ -28,13 +30,13 @@
 }
 
 .square {
-    width: 160px;
-    height: 160px;
-    float: left;
+    width: 20vh;
+    height: 20vh;
+    display: inline-block;
     background-color: #fff;
     text-align: center;
-    line-height: 160px;
-    font-size: 10em;
+    line-height: 20vh;
+    font-size: 20vh;
 }
 
 .sq-available {
@@ -44,56 +46,55 @@
 }
 
 .sq-unavailable {
-    cursor: pointer;
-    cursor: hand;
+    cursor: default;
 }
 
 .sq-winner {
     color: #CC324D;
 }
 
-.hidden {
-    display: none;
+.sq-hidden {
+    visibility: hidden;
     cursor: auto;
 }
 
-.square:hover>.sq-available {
+.square:hover>.sq-available:not(.sq-hidden) {
     height: 100%;
     visibility: visible;
 }
 
 .sq-0 {
-    margin: 0 5px 5px 0;
+    margin: 0 1vh 1vh 0;
 }
 
 .sq-1 {
-    margin: 0 5px 5px 5px;
+    margin: 0 1vh 1vh 1vh;
 }
 
 .sq-2 {
-    margin: 0 0 5px 5px;
+    margin: 0 0 1vh 1vh;
 }
 
 .sq-3 {
-    margin: 5px 5px 5px 0;
+    margin: 1vh 1vh 1vh 0;
 }
 
 .sq-4 {
-    margin: 5px;
+    margin: 1vh;
 }
 
 .sq-5 {
-    margin: 5px 0 5px 5px;
+    margin: 1vh 0 1vh 1vh;
 }
 
 .sq-6 {
-    margin: 5px 5px 0 0;
+    margin: 1vh 1vh 0 0;
 }
 
 .sq-7 {
-    margin: 5px 5px 0 5px;
+    margin: 1vh 1vh 0 1vh;
 }
 
 .sq-8 {
-    margin: 5px 0 0 5px;
+    margin: 1vh 0 0 1vh;
 }

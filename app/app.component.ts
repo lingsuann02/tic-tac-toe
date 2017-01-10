@@ -38,7 +38,7 @@ class CombinationSquare {
       <div class="game-board center-block">
 
         <div *ngFor="let sq of squares; let c = index;" class="square sq-{{c}}" [ngSwitch]="sq.state" (click)="onSquareSelect(c)">
-          <div [ngClass]="{'hidden': turns == 0}" class="sq-available" *ngSwitchCase="'sq-available'">{{user}}</div>
+          <div [ngClass]="{'sq-hidden': turns == 0}" class="sq-available" *ngSwitchCase="'sq-available'">{{user}}</div>
           <div class="{{sq.state}}" *ngSwitchDefault>{{sq.display}}</div>
         </div>    
 
