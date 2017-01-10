@@ -22,3 +22,5 @@ The computer calculates its chances of gaining three in a row by looping thru al
 Bootstrap css has been used as a base styling to ensure that all browsers have the same styling instead of a css reset stylesheet.
 
 The app does not have a persistance layer so nothing is saved to the server and the user cannot resume a previous game.
+
+The unit 'vw' has been used to ensure that the user will always be able to see the entire tic tac toe screen at all times regardless of screen size.
