@@ -2,6 +2,7 @@
 
 ## Requirements ##
 Your machine must have **npm** and **Node.js** to run the tic-tac-toe app.
+Supports IE11 and above.
 
 ## Languages ##
 Angular 2, Typescript
