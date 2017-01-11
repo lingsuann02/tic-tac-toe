@@ -8,7 +8,7 @@ Supports IE11 and above.
 Angular 2, Typescript
 
 ## How to run ##
-1. cd to the tic-tac-toe repo.
+1. Open the command line and cd to the tic-tac-toe repo.
 2. Run **npm install** in the command line to install dependencies.
 3. Run **npm start** in the command line to start the server and launch the web app in your browser (the web app will run on port 3000).
 
