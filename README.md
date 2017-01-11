@@ -20,8 +20,9 @@ Unit testing was not implemented although it would be useful for developing rule
 The computer calculates its chances of gaining three in a row by looping thru all possible winning combinations for the user and the computer before making its choice.
 
 The tic tac toe AI chooses its moves in the following way:
+
 1. The AI will always prevent the player from making three in a row.
-2. If the user does not have two in a row, the AI will mark the first square of the next available row that it can use to win.
+2. If the user does not have two in a row, the AI will always mark the first square of the next available row that it can use to win.
 
 This means the computer will always behave in the same way when squares are clicked in the same sequence. To remove predictability of the computer's moves, the computer should randomly mark one of the squares which is closest to three in a row. 
 
